@@ -1,5 +1,5 @@
 /**
- * Gruntfile for Zoocha Front end prototpye.
+ * Gruntfile for Front End prototpye.
  * This Gruntfile contains all the task definitions related to the build of the thehm,
  * e.g. SCSS compilation, linting, etc
  * Mostly for reference
@@ -20,7 +20,7 @@ module.exports = function(grunt) {
     },
     // Set this to the main SCSS file with all your imports in, the base CSS file.
     // Will compile to a CSS file of the same name.
-    baseCSSFile: 'zoocha',
+    baseCSSFile: 'style',
 
     //SASS subtask
     sass: {
@@ -58,7 +58,7 @@ module.exports = function(grunt) {
         src: '<%= paths.css %>/styles.css'
       }
     },
-    
+
     /**
      * CSS minify
      */
@@ -95,7 +95,7 @@ module.exports = function(grunt) {
       },
       beforeconcat: ['<%= paths.js %>/**/*.js']
     },
-    
+
     /**
      * Lint SCSS files at source for coding style errors
      */
@@ -106,7 +106,7 @@ module.exports = function(grunt) {
         verbose: true
       }
     },
-    
+
     /**
      * Concatenate, then compile the JS with Babel
      */
@@ -133,7 +133,7 @@ module.exports = function(grunt) {
         }
       }
     },
-    
+
     /**
      * Uglify JS
      */
@@ -148,7 +148,7 @@ module.exports = function(grunt) {
         }
       }
     },
-    
+
     /**
      * Watch - Watch and run tasks on all src files
      */
@@ -162,7 +162,7 @@ module.exports = function(grunt) {
         tasks: ['css'],
       }
     },
-    
+
     browserSync: {
       dev: {
         bsFiles: {

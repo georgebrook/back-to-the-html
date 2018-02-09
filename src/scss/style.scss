@@ -2,7 +2,9 @@
 // SCSS Supported.
 // Go!
 
-body {
-  min-width: 700px;
-  margin: 0 auto;
+@media (min-width: 700px) {
+  body {
+    width: 700px;
+    margin: 0 auto;
+  }
 }

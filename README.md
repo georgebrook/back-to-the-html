@@ -1,9 +1,9 @@
-# Zoocha Website Prototype 2017
+# Back to the HTML
 
 ## About this repository
 
-Static HTML prototype of the new Zoocha.com website.
-This is the very basic barebones of the front end to the new Zoocha website, hopefully a way to get the markup, SCSS and JS just the way we want it before delving into a build process ✌
+Static HTML prototyping kit.
+This is the very basic barebones of the front end any website, hopefully a way to get the HTML, SCSS and JS just the way you want it before delving into a build process :v:
 
 ## How to get setup and start contributing
 
