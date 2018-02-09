@@ -1,0 +1,28 @@
+{
+  "name": "theme-grunt-runner",
+  "description": "A Simple Grunt Compiler",
+  "devDependencies": {
+    "autoprefixer": "^6.5.1",
+    "babel-preset-env": "^1.6.0",
+    "grunt": "^1.0.1",
+    "grunt-babel": "^6.0.0",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-uglify": "^3.1.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-eslint": "^19.0.0",
+    "grunt-postcss": "^0.8.0",
+    "grunt-sass": "^2.0.0",
+    "grunt-stylelint": "^0.6.0",
+    "grunt-svg-sprite": "^1.2.19",
+    "matchdep": "^1.0.1",
+    "pixrem": "^3.0.2",
+    "stylelint-config-standard": "^14.0.0"
+  },
+  "scripts": {
+    "postinstall": "find node_modules/ -name '*.info' -type f -delete",
+    "start": "rm -rf node_modules/ && npm install && grunt"
+  }
+}
