@@ -1,8 +1,5 @@
 /**
  * Gruntfile for Front End prototpye.
- * This Gruntfile contains all the task definitions related to the build of the thehm,
- * e.g. SCSS compilation, linting, etc
- * Mostly for reference
  */
 "use strict();";
 
