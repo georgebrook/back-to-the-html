@@ -14,7 +14,7 @@
     "grunt-contrib-watch": "^1.0.0",
     "grunt-eslint": "^19.0.0",
     "grunt-postcss": "^0.8.0",
-    "grunt-sass": "^2.0.0",
+    "grunt-sass": "^2.1.0",
     "grunt-stylelint": "^0.6.0",
     "grunt-svg-sprite": "^1.2.19",
     "matchdep": "^1.0.1",
@@ -23,6 +23,6 @@
   },
   "scripts": {
     "postinstall": "find node_modules/ -name '*.info' -type f -delete",
-    "start": "rm -rf node_modules/ && npm install && grunt"
+    "start": "rm -rf node_modules/ && npm i && grunt"
   }
 }
